@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;//prueba
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -123,7 +123,7 @@ String url="http://172.16.1.12/services/login.php?u="+u+"&p="+p;
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-mensaje("chk");
+mensaje("chk"); //César está escribiendo para comprobar si pudo hacer Pull Request
             }
         }
         );
